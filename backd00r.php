@@ -19,7 +19,7 @@ function Injection($domain, $postparams)
     curl_setopt($ch, CURLOPT_POST, true);
     curl_setopt($ch, CURLOPT_POSTFIELDS, $postparams);
     curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
-    curl_setopt($ch,CURLOPT_USERAGENT,'ThisisaPassword');
+    curl_setopt($ch,CURLOPT_USERAGENT,'SetYoupasswordhere');
 
     $resp = curl_exec ($ch);
     curl_close ($ch);
